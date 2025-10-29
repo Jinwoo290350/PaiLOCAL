@@ -1,0 +1,29 @@
+﻿name: pailocal_traveler_app_fixed
+description: "P(AI)LOCAL+ starter"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  url_launcher: ^6.2.5
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/data/
