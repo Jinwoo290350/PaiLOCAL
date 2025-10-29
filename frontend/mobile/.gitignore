@@ -1,0 +1,31 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+flutter_export_environment.sh
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/build/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# macOS / Windows / Linux
+macos/Flutter/ephemeral/
+windows/x64/
+linux/build/
+
+# Web
+web/.dart_tool/
+web/build/
+
+# Etc
+*.log
